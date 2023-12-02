@@ -4,7 +4,7 @@ const context = canvas.getContext("2d");
 const snowflakes = [];
 const flakesCount = 200; // 雪花片数
 const image = new Image();
-image.src = "../image/snowflake.png"; // 雪花图片
+image.src = "./image/snowflake.png"; // 雪花图片
 
 const init = () => {
     canvas.width = window.innerWidth;
